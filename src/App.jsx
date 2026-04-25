@@ -159,7 +159,7 @@ const GlobalStyles = () => (
     .field-error input, .field-error textarea { border-color: rgba(255,59,48,0.5) !important; }
     .field-error-msg { font-family: 'JetBrains Mono', monospace; font-size: 10px; color: var(--accent); margin-top: 6px; letter-spacing: 0.04em; }
 
-    html { scroll-behavior: smooth; }
+    html { scroll-behavior: smooth; zoom: 1.15; }
     section { scroll-margin-top: 80px; }
 
     input, textarea { background: transparent; border: none; outline: none; color: #fff; font-family: inherit; }
